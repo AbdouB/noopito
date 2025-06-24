@@ -4,8 +4,6 @@
 
 ## Installation
 
-Install the CLI directly from GitHub:
-
 ```bash
 go install github.com/AbdouB/noopito/cmd/noopito@latest
 ```
