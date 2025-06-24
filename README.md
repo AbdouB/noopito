@@ -5,7 +5,14 @@
 ## Installation
 
 ```bash
-go install ./cmd/noopito
+go install github.com/AbdouB/noopito/cmd/noopito@latest
+```
+
+Run the tool without installing it using `go run`:
+
+```bash
+go run github.com/AbdouB/noopito/cmd/noopito@latest \
+  -package=your/module/pkg -interface=InterfaceName -output=./mocks
 ```
 
 ## Usage
